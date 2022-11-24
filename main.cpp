@@ -6,7 +6,7 @@ int main() {
    int a=1;
    int b=1;
    int c=0;
-   cin >> n;
+   cin>>n;
    if (n<2) {
       cout<<"errore"<<endl;
    }
