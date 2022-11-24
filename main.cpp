@@ -5,9 +5,9 @@ int main() {
    int n=0;
    int a=1;
    int b=1;
-   int c;
+   int c=1;
    cin>>n;
-   if (n<2) {
+   if (n<=2) {
       cout<<"errore"<<endl;
    }
    else {
