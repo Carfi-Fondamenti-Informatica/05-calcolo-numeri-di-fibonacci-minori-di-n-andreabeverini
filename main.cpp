@@ -5,13 +5,13 @@ int main() {
    int n=0;
    int a=1;
    int b=1;
-   int c=0;
+   int c;
    cin>>n;
    if (n<2) {
       cout<<"errore"<<endl;
    }
    else {
-      int i=0;
+      int i;
       cout<<a<<endl;
       cout<<b<<endl;
       for (i=3; i<=n; i++) {
@@ -21,6 +21,5 @@ int main() {
          b=c;
       }
    }
-   
    return 0;
 }
