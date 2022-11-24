@@ -7,18 +7,17 @@ int main() {
    int b=1;
    int c=1;
    cin>>n;
-   if (n<=2) {
-      cout<<"errore"<<endl;
-   }
-   else {
-      int i;
+   if (n>=2) {
       cout<<a<<endl;
       cout<<b<<endl;
-      for (i=2; i<n; i++) {
+      for (int i=2; i<n; i++) {
          c=a+b;
          cout<<c<<endl;
          a=b;
          b=c;
+   }
+   else {
+       cout<<"errore"<<endl;
       }
    }
    return 0;
