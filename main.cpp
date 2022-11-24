@@ -14,7 +14,7 @@ int main() {
       int i;
       cout<<a<<endl;
       cout<<b<<endl;
-      for (i=3; i<=n; i++) {
+      for (i=2; i<n; i++) {
          c=a+b;
          cout<<c<<endl;
          a=b;
