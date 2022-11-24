@@ -3,8 +3,8 @@ using namespace std;
 
 int main() {
    int n=0;
-   int a=0;
-   int b=0;
+   int a=1;
+   int b=1;
    int c=0;
    cin >> n;
    if (n<2) {
