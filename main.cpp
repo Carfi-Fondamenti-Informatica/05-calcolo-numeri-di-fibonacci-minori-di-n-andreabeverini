@@ -5,7 +5,7 @@ int main() {
    int n=0;
    int a=1;
    int b=1;
-   int c=1;
+   int c=0;
    cin>>n;
    if (n>=2) {
       cout<<a<<endl;
@@ -16,9 +16,9 @@ int main() {
          a=b;
          b=c;
    }
+   }
    else {
        cout<<"errore"<<endl;
       }
-   }
    return 0;
 }
